@@ -1,5 +1,6 @@
 %load the experimental data
-plasma = readtable('plasma data.csv');
+plasma = readtable('animal_data_cleared.csv');
+%%
 %%extract data
 Monkey1=plasma(plasma.AnimalID==40690,:);
 Monkey2=plasma(plasma.AnimalID==34795,:);
